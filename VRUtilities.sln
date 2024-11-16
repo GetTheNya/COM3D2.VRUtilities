@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRUtilities", "VRUtilities.csproj", "{9A2EAB9C-6981-4720-84CB-1951D8EA6337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A2EAB9C-6981-4720-84CB-1951D8EA6337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2EAB9C-6981-4720-84CB-1951D8EA6337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2EAB9C-6981-4720-84CB-1951D8EA6337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2EAB9C-6981-4720-84CB-1951D8EA6337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1440A2C-8D42-49C6-AA48-183E3B2255F9}
+	EndGlobalSection
+EndGlobal
