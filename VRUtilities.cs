@@ -27,8 +27,8 @@ namespace VRUtilities {
             PluginLogger.LogInfo($"Hello from {PluginInfo.NAME}!");
 
             if (!GameMain.Instance.VRMode) {
-                //PluginLogger.LogInfo("VR Not detected");
-                //return;
+                PluginLogger.LogInfo("VR Not detected");
+                return;
             }
 
             PatchAll(PatchTypes);

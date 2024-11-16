@@ -57,7 +57,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Patches\IKDragPointPatch.cs" />
+    <Compile Include="Patches\WorldTransformAxisPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VRUtilities.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
