@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
 
-namespace VRUtilities {
+namespace VRUtilities.Patches {
     public static class WorldTransformAxisPatch {
         [HarmonyTranspiler]
         [HarmonyPatch(typeof(WorldTransformAxis), "Update")]

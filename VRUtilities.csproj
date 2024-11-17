@@ -57,6 +57,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OnScreenKeyboard\OnScreenKeyboardManager.cs" />
+    <Compile Include="OnScreenKeyboard\OnScreenKeyboardPlugin.cs" />
+    <Compile Include="OnScreenKeyboard\Prefab.cs" />
+    <Compile Include="OnScreenKeyboard\UIHelper\OnScreenKeyboardBuilder.cs" />
+    <Compile Include="OnScreenKeyboard\UIHelper\UIUtility.cs" />
     <Compile Include="Patches\IKDragPointPatch.cs" />
     <Compile Include="Patches\WorldTransformAxisPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -2,7 +2,7 @@
 using RootMotion.FinalIK;
 using UnityEngine;
 
-namespace VRUtilities {
+namespace VRUtilities.Patches {
     public static class IKDragPointPatch {
         private static readonly AccessTools.FieldRef<IKDragPoint, bool> is_drag_ = AccessTools.FieldRefAccess<bool>(typeof(IKDragPoint), "is_drag_");
         private static readonly AccessTools.FieldRef<IKDragPoint, Transform> target_trans_ = AccessTools.FieldRefAccess<Transform>(typeof(IKDragPoint), "target_trans_");

@@ -2,6 +2,8 @@
 using BepInEx.Logging;
 using HarmonyLib;
 using System;
+using VRUtilities.Patches;
+using VRUtilities.OnScreenKeyboard;
 
 namespace VRUtilities {
     [BepInPlugin(PluginInfo.GUID, PluginInfo.NAME, PluginInfo.VERSION)]
@@ -27,11 +29,14 @@ namespace VRUtilities {
             PluginLogger.LogInfo($"Hello from {PluginInfo.NAME}!");
 
             if (!GameMain.Instance.VRMode) {
-                PluginLogger.LogInfo("VR Not detected");
-                return;
+                //PluginLogger.LogInfo("VR Not detected");
+                //return;
             }
 
             PatchAll(PatchTypes);
+
+            PluginLogger.LogInfo("Initiating OnScreenKeyboard");
+            OnScreenKeyboardPlugin.Init();
 
             PluginLogger.LogInfo("Game patched");
         }
